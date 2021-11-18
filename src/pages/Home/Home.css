@@ -1,0 +1,10 @@
+#category-card-wrap {
+    display: flex;
+    gap: 16px;
+}
+
+@media (max-width: 425px) {
+    .category-card-wrap {
+        gap: 10px;
+    }
+}

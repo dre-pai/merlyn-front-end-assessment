@@ -1,0 +1,37 @@
+.planet-icon svg {
+    width: auto;
+    height: 160px;
+    transform: translate(-37%, -13%);
+}
+
+div#planet-card-wrap {
+    display: flex;
+    gap: 16px;
+}
+
+.planet-card {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 180px;
+    border-radius: 5px;
+    transition: filter .2s;
+}
+
+.planet-icon {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.planet-link-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+
+.planet-card:hover {
+    filter: brightness(110%) saturate(140%);
+    cursor: pointer;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --brand-background: #151515;
+  --brand-white: #fff;
+  --gradient-button: linear-gradient(to right, #EF5F53 , #FA8F70);
+  --gradient-blue: linear-gradient(#5935FF , #47408E);
+  --gradient-pink: linear-gradient(#FF6CD9 , #FF2184);
+  --gradient-cyan: linear-gradient(#01D4E4 , #009DE0);
+  --gradient-yellow: linear-gradient(#F9C270 , #FFAA2B);
+  --container-width: 1100px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+  color: var(--brand-white);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-gradient-blue {
+  background: var(--gradient-blue);
+}
+
+.bg-gradient-pink {
+  background: var(--gradient-pink);
+}
+
+.bg-gradient-cyan {
+  background: var(--gradient-cyan);
+}
+
+.bg-gradient-yellow {
+  background: var(--gradient-yellow);
+}
+
+.home-title {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.button-title {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.paragraph, p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.placeholder {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.bottombar-item {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.gradient-text {
+  background-clip: text;
+  color: transparent;
+}
+
+.svg-invert path {
+  filter: invert(1);
+  fill: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.brand-bg {
+  background-color: var(--brand-background);
+}
+

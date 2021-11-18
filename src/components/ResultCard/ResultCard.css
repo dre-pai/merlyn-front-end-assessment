@@ -1,0 +1,58 @@
+.result-card {
+    display: flex;
+    border-radius: 5px;
+    width: calc(50% - 8px);
+}
+
+.result-card > div {
+    width: 100%;
+}
+
+.result-planet-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.result-planet-link {
+    display: flex;
+    gap: 10px;
+}
+
+.result-planet-info {
+    padding: 15px;
+}
+
+.result-planet-desc {
+    padding: 10px 0 20px 0;
+}
+
+.result-planet-icon {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.result-planet-icon svg {
+    width: auto;
+    height: 160px;
+    transform: translate(-34%, -10%);
+}
+
+.planet-save-hidden {
+    display: none;
+}
+
+.planet-save-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.planet-save-icon:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 860px) {
+    .result-card {
+        width: 100%;
+    }
+}

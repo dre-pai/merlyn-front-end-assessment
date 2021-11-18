@@ -1,0 +1,61 @@
+footer {
+    border-radius: 5px 5px 0 0;;
+    height: 70px;
+    overflow: hidden;
+    margin-top: 12px;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    max-width: var(--container-width);
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+.bottombar-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    opacity: .7;
+}
+
+.bottombar-item svg {
+    transform: translateY(10px);
+    transition: all .4s;
+}
+
+.bottombar-text {
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all .4s;
+    color: var(--brand-white);
+}
+
+.bottombar-item:hover, footer .active {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.bottombar-item:hover svg, footer .active svg {
+    transform: translateY(0);
+}
+
+.bottombar-item:hover .bottombar-text, footer .active .bottombar-text {
+    transform: translateY(6px);
+    opacity: 1;
+}
+
+@media (max-width: 767px) {
+    footer {
+        position: sticky;
+        bottom: 0;
+    }
+
+    /*TODO
+    Desktop menu style*/
+}
