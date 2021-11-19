@@ -33,7 +33,7 @@ function App() {
 
   useEffect(() => {
     renderStars()
-    window.addEventListener('resize', renderStars(), true);
+    window.addEventListener('resize', renderStars, true);
   }, [])
 
   return (
